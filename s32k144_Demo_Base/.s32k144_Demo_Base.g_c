@@ -2,7 +2,7 @@
 <GenerationInfo_G_C>
   <Options>
     <ProjectName>s32k144_Demo_Base</ProjectName>
-    <ProjectDirectory>E:\NXP_workspace\sp01\s32k144_Demo_Base\</ProjectDirectory>
+    <ProjectDirectory>C:\Users\lyc\Desktop\S32K144demo\s32k144_Demo_Base\</ProjectDirectory>
     <ProjectMainModuleName>main</ProjectMainModuleName>
     <DestEventsDirectory>Sources\</DestEventsDirectory>
     <DestDriversSubDirectory>..\Generated_Code\</DestDriversSubDirectory>
@@ -502,7 +502,7 @@
     <GenComponentVersion>01.197</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1450225203</HeaderAge>
+    <HeaderAge>1450349283</HeaderAge>
     <CodeAge>1450225203</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>3</GenNumMethods>
@@ -592,8 +592,8 @@
     <GenComponentVersion>SDK_S32K1xx_15</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1450225202</HeaderAge>
-    <CodeAge>1450225202</CodeAge>
+    <HeaderAge>1450349283</HeaderAge>
+    <CodeAge>1450349283</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>6</GenNumMethods>
     <CLOCK_DRV_Init>true</CLOCK_DRV_Init>
