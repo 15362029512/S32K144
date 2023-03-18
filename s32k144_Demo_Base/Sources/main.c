@@ -17,6 +17,7 @@
 #include "uart.h"
 #include"key.h"
 #include"oled.h"
+#include "app_adc.h"
   volatile int exit_code = 0;
 
 #define LED1(x)  PINS_DRV_WritePin(PTD,16,!x);
@@ -46,8 +47,11 @@ int main(void)
 	oled_init(); //OLED配置参数初始化
 	OLED_TITLE((uint8_t*)"S32K144",(uint8_t*)"01_BASE");//OLED显示标题
 	u1_printf("初始化完毕,MCU运行频率为 %d Mhz \r\n",MCU_Freq);
+    
+    bsp_ADC_init();
     while(1)
     {
+        bsp_get_ADC_val();
 	pinstate = KEY_Proc (1);
 	if(pinstate ==BTN1_PRES )
 			{
